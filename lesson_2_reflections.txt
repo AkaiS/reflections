@@ -1,0 +1,4 @@
+What happens when you initalize a repository? Why do you need to do it?
+
+What happens is that the file is recognized as a git repository causing all the files inside to be recognized by git programs. This is necessary to be able to use git in the first place, no repository, no git.
+
