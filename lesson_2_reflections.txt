@@ -2,3 +2,6 @@ What happens when you initalize a repository? Why do you need to do it?
 
 What happens is that the file is recognized as a git repository causing all the files inside to be recognized by git programs. This is necessary to be able to use git in the first place, no repository, no git.
 
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+The staging area is like a workbench. You can use it to figure out what you are putting in your repository from your working directory but it won't be used for long term storage or controlling versions.
