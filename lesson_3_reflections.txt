@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+You would end up wanting to use remote repositories on any project that needs multiple people. On top of that, having a back up is often a very good idea. You may also want to share what you have accomplished with other people and get their feedback. Without using remote repositories one of the best aspects of git, the ability to open source and get help from anyone, is lost.
