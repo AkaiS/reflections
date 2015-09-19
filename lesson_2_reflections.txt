@@ -5,3 +5,22 @@ What happens is that the file is recognized as a git repository causing all the 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 The staging area is like a workbench. You can use it to figure out what you are putting in your repository from your working directory but it won't be used for long term storage or controlling versions.
+
+How can you use the staging area to make sure you have one commit per logical change?
+You can always change multiple files and then commit each of those individually later. This helps you create logical commits while not having to only work on certain files.
+
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+Creating new branches allows you to experiment while not changing the master branch. This means if you go back and forth and make a whole bunch of commits it won't clutter your master log. On top of this, if you add a big feature you can create it in a branch giving it an easy to understand history so when you do something like merge it isn't a bunch of small commits to the master branch, but rather a large change.
+
+How do the diagrams help you visualize the branch structure?
+
+Diagrams help visiualize the branch structure because you can see all your branches and where they connect with the master. This allows you to see things like the parent structure and what will appear in a branches log and where the tip, or the status, of all of your branches/coding is currently at.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+Merging two branches together helps incorporate new code into a single branch. Without it actual branches would have little to no use as you would not be able to effectiently add code from branches back into a master branch. However, it is still valuable to show the branches as it makes comparing old commits far easier because between branches, commits can have huge changes while the actual commit may only vary slightly from it's parent.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+The automatic merging is far, far faster than having to do it manually. Having to check for differences for every line of code would get tedious and would most likely incur mistakes. However, there are things that need to be done manually like when a merge produces a conflict. If this process were automatic there is a very good change you would end up losing relevant code as the algorithm and program to now what code you do need just doesn't exist yet.
